@@ -93,7 +93,7 @@
                         </a>
                         <ul class="nav nav-second-level">
                             <li>
-                                <a class="J_menuItem" href="graph_echarts.html">百度ECharts</a>
+                                <a class="J_menuItem" href="graph_echarts.html">百度EChartse</a>
                             </li>
                             <li>
                                 <a class="J_menuItem" href="graph_flot.html">Flot</a>
