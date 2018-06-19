@@ -1288,7 +1288,6 @@ function localStorageSupport() {
 /***/ (function(module, exports, __webpack_require__) {
 
 // 全局js
-// require('./bootstrap');
 window.$ = window.jQuery = __webpack_require__("./resources/assets/js/jquery.min.js");
 __webpack_require__("./resources/assets/js/bootstrap.min.js");
 __webpack_require__("./resources/assets/js/plugins/metisMenu/jquery.metisMenu.js");
@@ -3523,7 +3522,7 @@ __webpack_require__("./resources/assets/js/plugins/pace/pace.min.js");
 
 /*! layer弹层组件拓展类 */
 ;!function () {
-  layer.use("skin/layer.ext.css", function () {
+  layer.use("plugins/layer/skin/layer.ext.css", function () {
     layer.layui_layer_extendlayerextjs = !0;
   });var a = layer.cache || {},
       b = function b(_b) {

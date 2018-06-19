@@ -8283,6 +8283,7 @@ a:focus {
 
 .font-bold {
     font-weight: 600;
+    padding: 15px;
 }
 
 .font-noraml {

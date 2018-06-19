@@ -1,5 +1,4 @@
 // 全局js
-// require('./bootstrap');
 window.$ = window.jQuery = require('./jquery.min');
 require('./bootstrap.min');
 require('./plugins/metisMenu/jquery.metisMenu');

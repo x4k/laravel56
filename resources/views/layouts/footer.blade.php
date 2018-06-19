@@ -1,4 +1,4 @@
-
+@section('js')
     <script src="{{ asset('js/index.js') }}"></script>
-    </body>
-</html>
+@show
+@yield('jsExt')
