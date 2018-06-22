@@ -13,6 +13,9 @@ let mix = require('laravel-mix');
 
 mix.js('resources/assets/js/app.js', 'public/js')
     .js('resources/assets/js/index.js', 'public/js')
+    .js('resources/assets/js/global.js', 'public/js')
+    .js('resources/assets/js/flot.js', 'public/js')
+    .js('resources/assets/js/peity.js', 'public/js')
    .sass('resources/assets/sass/app.scss', 'public/css')
   .combine([
           'resources/assets/css/bootstrap.min.css',

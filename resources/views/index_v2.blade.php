@@ -1,7 +1,7 @@
-@extends('layouts.main');
+@extends('layouts.main')
 
 <link rel="shortcut icon" href="{{ asset('/favicon.ico') }}"> <link href="{{ asset('css/bootstrap.min.css') }}" rel="stylesheet">
-@section('css');
+@section('css')
     <link href="{{ asset('css/font-awesome.css') }}" rel="stylesheet">
 
     <!-- Morris -->
@@ -12,8 +12,8 @@
 
     <link href="css/animate.css" rel="stylesheet">
     <link href="css/style.css?v=4.1.0" rel="stylesheet">
-@endsection;
-@section('main');
+@endsection
+@section('main')
     <div class="wrapper wrapper-content">
     <div class="row">
         <div class="col-sm-4">
@@ -306,9 +306,9 @@
 
     </div>
 </div>
-@endsection;
+@endsection
 
-@section('js');
+@section('js')
     <!-- 全局js -->
     <script src="js/jquery.min.js?v=2.1.4"></script>
     <script src="js/bootstrap.min.js?v=3.3.6"></script>
@@ -414,4 +414,4 @@
             });
         });
     </script>
-@endsection;
+@endsection

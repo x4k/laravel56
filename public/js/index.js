@@ -1009,6 +1009,16 @@ $(function () {
 
 /***/ }),
 
+/***/ "./resources/assets/js/global.js":
+/***/ (function(module, exports, __webpack_require__) {
+
+// 全局js
+window.$ = window.jQuery = __webpack_require__("./resources/assets/js/jquery.min.js");
+__webpack_require__("./resources/assets/js/bootstrap.min.js");
+__webpack_require__("./resources/assets/js/plugins/layer/layer.min.js");
+
+/***/ }),
+
 /***/ "./resources/assets/js/hplus.js":
 /***/ (function(module, exports) {
 
@@ -1288,11 +1298,10 @@ function localStorageSupport() {
 /***/ (function(module, exports, __webpack_require__) {
 
 // 全局js
-window.$ = window.jQuery = __webpack_require__("./resources/assets/js/jquery.min.js");
-__webpack_require__("./resources/assets/js/bootstrap.min.js");
+__webpack_require__("./resources/assets/js/global.js");
+
 __webpack_require__("./resources/assets/js/plugins/metisMenu/jquery.metisMenu.js");
 __webpack_require__("./resources/assets/js/plugins/slimscroll/jquery.slimscroll.min.js");
-__webpack_require__("./resources/assets/js/plugins/layer/layer.min.js");
 __webpack_require__("./resources/assets/js/plugins/metisMenu/jquery.metisMenu.js");
 __webpack_require__("./resources/assets/js/plugins/slimscroll/jquery.slimscroll.min.js");
 __webpack_require__("./resources/assets/js/plugins/layer/extend/layer.ext.js");
