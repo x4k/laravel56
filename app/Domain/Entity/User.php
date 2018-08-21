@@ -1,6 +1,4 @@
-<?php
-
-namespace App;
+<?php namespace App\Domain\Entity;
 
 use Illuminate\Notifications\Notifiable;
 use Illuminate\Foundation\Auth\User as Authenticatable;
